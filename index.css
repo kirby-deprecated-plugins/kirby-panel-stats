@@ -1,0 +1,37 @@
+p-stats {
+  background: #fafafa;
+  display: block;
+  padding: .625rem .75rem;
+}
+
+p-stats table {
+  border-collapse: collapse;
+}
+
+p-stats td,
+p-stats th {
+  line-height: 1.5;
+}
+
+p-stats h2 {
+  font-size: .75rem !important;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: .75;
+}
+
+p-stats td {
+  font-weight: 400;
+  color: #777;
+}
+
+p-stats th {
+  font-weight: 500;
+  padding-right: 1rem;
+  text-align: left;
+}
+
+p-stats tr:first-child h2 {
+  margin-top: 0;
+}
